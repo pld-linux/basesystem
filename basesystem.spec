@@ -30,6 +30,7 @@ tym samym w³a¶ciwy porz±dek instalacji pakietów.
 
 %install
 rm -rf $RPM_BUILD_ROOT
+mkdir $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
