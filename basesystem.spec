@@ -2,13 +2,15 @@ Summary:	Skeleton package which defines a base of PLD system
 Summary(pl):	Pakiet szkieletowy który okre¶la podstawê systemu PLD
 Name:		basesystem
 Version:	1.0
-Release:	1
+Release:	2
 Group:		Base
 Group(pl):	Podstawowe
 License:	GPL
 Prereq:		FHS
 Prereq:		setup
 Prereq:		dev
+Requires:	rpm
+Requires:	kernel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
