@@ -2,7 +2,7 @@ Summary:	Skeleton package which defines a base of PLD system
 Summary(pl):	Pakiet szkieletowy który okre¶la podstawê systemu PLD
 Name:		basesystem
 Version:	1.0
-Release:	4
+Release:	5
 Epoch:		1
 Group:		Base
 Group(pl):	Podstawowe
@@ -12,6 +12,7 @@ Prereq:		setup
 Prereq:		dev
 #Requires:	rpm
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildArch:	noarch
 
 %description
 While this package does not contain any files, it does perform an
