@@ -4,7 +4,7 @@ Name:		basesystem
 Version:	1.0
 Release:	1
 Group:		Base
-Group(pl):	Bazowe
+Group(pl):	Podstawowe
 License:	GPL
 Prereq:		FHS
 Prereq:		setup
