@@ -9,7 +9,7 @@ License:	GPL
 Prereq:		FHS
 Prereq:		setup
 Prereq:		dev
-BuildRoot:	/tmp/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 While this package does not contain any files, it does perform an important
