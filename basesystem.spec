@@ -4,13 +4,13 @@ Name:		basesystem
 Version:	1.0
 Release:	5
 Epoch:		1
-Group:		Base
-Group(pl):	Podstawowe
 License:	GPL
+Group:		Base
+Group(de):	Gründsätzlich
+Group(pl):	Podstawowe
 Prereq:		FHS
 Prereq:		setup
 Prereq:		dev
-#Requires:	rpm
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 
@@ -26,11 +26,13 @@ tym samym w³a¶ciwy porz±dek instalacji pakietów.
 
 %prep
 
-%build
-
 %install
 rm -rf $RPM_BUILD_ROOT
-mkdir $RPM_BUILD_ROOT
+
+%{__install} -d $RPM_BUILD_ROOT
+
+%clean
+rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
