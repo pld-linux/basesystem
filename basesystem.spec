@@ -13,8 +13,6 @@ Prereq:		setup
 Prereq:		dev
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
-
-Obsoletes:	gmc
 Obsoletes:	gwp
 Obsoletes:	xwpick
 
