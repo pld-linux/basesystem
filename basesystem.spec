@@ -3,8 +3,8 @@ Summary(pl):	Pakiet szkieletowy ktСry okre╤la podstawЙ systemu PLD
 Summary(ru):	Базовый пакет, определяющий систему KSI Linux
 Summary(uk):	Базовий пакет, який визнача╓ систему KSI Linux
 Name:		basesystem
-Version:	1.0
-Release:	9
+Version:	1.99
+Release:	1
 Epoch:		2
 License:	GPL
 Group:		Base
