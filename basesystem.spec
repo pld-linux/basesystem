@@ -10,7 +10,6 @@ Prereq:		FHS
 Prereq:		setup
 Prereq:		dev
 Requires:	rpm
-Requires:	kernel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
