@@ -5,7 +5,7 @@ Release:	1
 Copyright:	public domain
 Group:		Base
 Group(pl):      Podstawowe
-Prereq:		setup filesystem dev
+Prereq:		setup FHS dev
 BuildRoot:	/tmp/%{name}-%{version}-root
 BuildArchitectures:	noarch
 
