@@ -1,19 +1,31 @@
-Summary:	The skeleton package which defines a simple PLD Linux system.
+Summary:	Skeleton package which defines a base of PLD system
+Summary(pl):	Pakiet szkieletowy który okre¶la podstawê systemu PLD
 Name:		basesystem
-Version:	0.1
+Version:	1.0
 Release:	1
-Copyright:	public domain
 Group:		Base
-Group(pl):      Podstawowe
-Prereq:		setup FHS dev
-BuildRoot:	/tmp/%{name}-%{version}-root
-BuildArchitectures:	noarch
+Group(pl):	Bazowe
+License:	GPL
+Prereq:		FHS
+Prereq:		setup
+Prereq:		dev
+BuildRoot:	/tmp/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Basesystem defines the components of a basic PLD system (for example, the
-package installation order to use during bootstrapping). Basesystem should
-be the first package installed on a system, and it should never be removed.
+While this package does not contain any files, it does perform an important
+function. It defines the components of a basic PLD distribution, providing
+packages install in right order.
 
+%description -l pl
+Mimo ¿e ten pakiet nie zawiera ¿adnych plików, ma on bardzo wa¿ne zadanie.
+Definiuje komponenty podstawowej dystrybucji PLD, zapewniaj±c tym samym
+w³a¶ciwy porz±dek instalacji pakietów.
+
+%prep
+
+%build
+
+%install
 
 %files
 %defattr(644,root,root,755)
