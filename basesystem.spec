@@ -6,8 +6,6 @@ Release:	7
 Epoch:		2
 License:	GPL
 Group:		Base
-Group(de):	Gründsätzlich
-Group(pl):	Podstawowe
 Prereq:		FHS
 Prereq:		setup
 Prereq:		dev
