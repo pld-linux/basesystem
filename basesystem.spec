@@ -4,7 +4,7 @@ Summary(ru):	Базовый пакет, определяющий систему KSI Linux
 Summary(uk):	Базовий пакет, який визнача╓ систему KSI Linux
 Name:		basesystem
 Version:	1.99
-Release:	1
+Release:	2
 Epoch:		2
 License:	GPL
 Group:		Base
