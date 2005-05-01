@@ -12,7 +12,6 @@ Prereq:		FHS
 Prereq:		setup
 Prereq:		dev
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-BuildArch:	noarch
 # obsoletes for removed packages
 Obsoletes:	bdflush
 Obsoletes:	gmc
