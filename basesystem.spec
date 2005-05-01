@@ -4,7 +4,7 @@ Summary(ru):	Базовый пакет, определяющий систему PLD Linux Distribution
 Summary(uk):	Базовий пакет, який визнача╓ систему PLD Linux Distribution
 Name:		basesystem
 Version:	2.99
-Release:	2
+Release:	3
 Epoch:		2
 License:	GPL
 Group:		Base
