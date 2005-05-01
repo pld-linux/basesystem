@@ -13,25 +13,26 @@ Prereq:		setup
 Prereq:		dev
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
-
 # obsoletes for removed packages
+Obsoletes:	bdflush
 Obsoletes:	gmc
 Obsoletes:	gwp
 Obsoletes:	xwpick
 %ifarch alpha
 Obsoletes:	gfax
 %endif
+# GNOME 1.x stuff dropped in Ac
 Obsoletes:	gda1-ldap
 Obsoletes:	gda1-mysql
 Obsoletes:	gda1-odbc
 Obsoletes:	gda1-postgres
+Obsoletes:	gnome-db
+Obsoletes:	gnome-db-devel
+Obsoletes:	gnome-db-static
 Obsoletes:	libgda1-clientcpp
 Obsoletes:	libgda1-clientcpp-devel
 Obsoletes:	libgda1-devel
 Obsoletes:	libgda1-static
-Obsoletes:	gnome-db
-Obsoletes:	gnome-db-devel
-Obsoletes:	gnome-db-static
 Obsoletes:	libglade-gnomedb
 Obsoletes:	libglade-gnomedb-devel
 Obsoletes:	libglade-gnomedb-static
