@@ -4,7 +4,7 @@ Summary(ru):	Базовый пакет, определяющий систему PLD Linux Distribution
 Summary(uk):	Базовий пакет, який визнача╓ систему PLD Linux Distribution
 Name:		basesystem
 Version:	1.99
-Release:	4
+Release:	5
 Epoch:		2
 License:	GPL
 Group:		Base
@@ -17,9 +17,6 @@ Obsoletes:	bdflush
 Obsoletes:	gmc
 Obsoletes:	gwp
 Obsoletes:	xwpick
-%ifarch alpha
-Obsoletes:	gfax
-%endif
 # GNOME 1.x stuff dropped in Ac
 Obsoletes:	gda1-ldap
 Obsoletes:	gda1-mysql
