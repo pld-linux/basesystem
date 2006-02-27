@@ -4,14 +4,14 @@ Summary(ru):	Базовый пакет, определяющий систему PLD Linux Distribution
 Summary(uk):	Базовий пакет, який визнача╓ систему PLD Linux Distribution
 Name:		basesystem
 Version:	1.99
-Release:	5
+Release:	6
 Epoch:		2
 License:	GPL
 Group:		Base
-PreReq:		FHS
-PreReq:		setup
-PreReq:		dev
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Requires:	FHS
+Requires:	dev
+Requires:	setup
+Obsoletes:	vserver-basesystem
 # obsoletes for removed packages
 Obsoletes:	bdflush
 Obsoletes:	gmc
@@ -32,6 +32,7 @@ Obsoletes:	libgda1-static
 Obsoletes:	libglade-gnomedb
 Obsoletes:	libglade-gnomedb-devel
 Obsoletes:	libglade-gnomedb-static
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 While this package does not contain any files, it does perform an
