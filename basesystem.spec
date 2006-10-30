@@ -8,10 +8,9 @@ Release:	3
 Epoch:		2
 License:	GPL
 Group:		Base
-Prereq:		FHS
-Prereq:		setup
-Prereq:		dev
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Requires:	FHS
+Requires:	dev
+Requires:	setup
 Obsoletes:	vserver-basesystem
 # obsoletes for removed packages
 Obsoletes:	bdflush
@@ -36,6 +35,7 @@ Obsoletes:	libgda1-static
 Obsoletes:	libglade-gnomedb
 Obsoletes:	libglade-gnomedb-devel
 Obsoletes:	libglade-gnomedb-static
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 While this package does not contain any files, it does perform an
