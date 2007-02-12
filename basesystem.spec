@@ -1,7 +1,7 @@
 Summary:	Skeleton package which defines a base of PLD system
-Summary(pl.UTF-8):   Pakiet szkieletowy który określa podstawę systemu PLD
-Summary(ru.UTF-8):   Базовый пакет, определяющий систему PLD Linux Distribution
-Summary(uk.UTF-8):   Базовий пакет, який визначає систему PLD Linux Distribution
+Summary(pl.UTF-8):	Pakiet szkieletowy który określa podstawę systemu PLD
+Summary(ru.UTF-8):	Базовый пакет, определяющий систему PLD Linux Distribution
+Summary(uk.UTF-8):	Базовий пакет, який визначає систему PLD Linux Distribution
 Name:		basesystem
 Version:	2.99
 Release:	3
