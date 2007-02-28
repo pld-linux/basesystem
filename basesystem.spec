@@ -54,7 +54,6 @@ Obsoletes:	openoffice-i18n-de-gtk
 Obsoletes:	openoffice-i18n-el
 Obsoletes:	openoffice-i18n-el-gtk
 Obsoletes:	openoffice-i18n-en
-Obsoletes:	openoffice-i18n-en
 Obsoletes:	openoffice-i18n-en-gtk
 Obsoletes:	openoffice-i18n-en-kde
 Obsoletes:	openoffice-i18n-es
@@ -118,9 +117,9 @@ Obsoletes:	openoffice-i18n-nso-gtk
 Obsoletes:	openoffice-i18n-pl
 Obsoletes:	openoffice-i18n-pl-gtk
 Obsoletes:	openoffice-i18n-pt
-Obsoletes:	openoffice-i18n-pt-gtk
 Obsoletes:	openoffice-i18n-pt_BR
 Obsoletes:	openoffice-i18n-pt_BR-gtk
+Obsoletes:	openoffice-i18n-pt-gtk
 Obsoletes:	openoffice-i18n-ro
 Obsoletes:	openoffice-i18n-ro-gtk
 Obsoletes:	openoffice-i18n-ru
@@ -141,7 +140,6 @@ Obsoletes:	openoffice-i18n-tr
 Obsoletes:	openoffice-i18n-tr-gtk
 Obsoletes:	openoffice-i18n-uk
 Obsoletes:	openoffice-i18n-uk-gtk
-Obsoletes:	openoffice-i18n-zh
 Obsoletes:	openoffice-i18n-zh
 Obsoletes:	openoffice-i18n-zh_CN
 Obsoletes:	openoffice-i18n-zh_CN-gtk
