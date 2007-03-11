@@ -4,7 +4,7 @@ Summary(ru):	Базовый пакет, определяющий систему PLD Linux Distribution
 Summary(uk):	Базовий пакет, який визнача╓ систему PLD Linux Distribution
 Name:		basesystem
 Version:	1.99
-Release:	7
+Release:	8
 Epoch:		2
 License:	GPL
 Group:		Base
@@ -82,6 +82,7 @@ Obsoletes:	gstreamer08x-vorbis
 Obsoletes:	gstreamer08x-wavpack
 Obsoletes:	gstreamer08x-xvid
 Obsoletes:	gwp
+Obsoletes:	python-gstreamer08x
 Obsoletes:	python-pyflac
 Obsoletes:	sonic-rainbow
 Obsoletes:	xwpick
