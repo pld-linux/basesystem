@@ -4,7 +4,7 @@ Summary(ru):	Базовый пакет, определяющий систему PLD Linux Distribution
 Summary(uk):	Базовий пакет, який визнача╓ систему PLD Linux Distribution
 Name:		basesystem
 Version:	1.99
-Release:	8
+Release:	9
 Epoch:		2
 License:	GPL
 Group:		Base
@@ -15,6 +15,7 @@ Obsoletes:	vserver-basesystem
 # obsoletes for removed packages
 Obsoletes:	bdflush
 Obsoletes:	gmc
+Obsoletes:	gst-editor
 Obsoletes:	gstreamer08x
 Obsoletes:	gstreamer08x-GConf
 Obsoletes:	gstreamer08x-GConf-devel
@@ -81,7 +82,12 @@ Obsoletes:	gstreamer08x-visualisation
 Obsoletes:	gstreamer08x-vorbis
 Obsoletes:	gstreamer08x-wavpack
 Obsoletes:	gstreamer08x-xvid
+Obsoletes:	gstreamer-player
+Obsoletes:	goobox
 Obsoletes:	gwp
+Obsoletes:	jamboree
+Obsoletes:	lindele
+Obsoletes:	monkey-bubble
 Obsoletes:	python-gstreamer08x
 Obsoletes:	python-pyflac
 Obsoletes:	sonic-rainbow
