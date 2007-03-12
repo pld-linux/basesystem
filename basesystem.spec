@@ -3,8 +3,8 @@ Summary(pl):	Pakiet szkieletowy ktСry okre╤la podstawЙ systemu PLD
 Summary(ru):	Базовый пакет, определяющий систему PLD Linux Distribution
 Summary(uk):	Базовий пакет, який визнача╓ систему PLD Linux Distribution
 Name:		basesystem
-Version:	1.99
-Release:	10
+Version:	2.0
+Release:	1
 Epoch:		2
 License:	GPL
 Group:		Base
