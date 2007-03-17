@@ -89,6 +89,7 @@ Obsoletes:	gwp
 Obsoletes:	jamboree
 Obsoletes:	lindele
 Obsoletes:	monkey-bubble
+Obsoletes:	perl-SWF-Builder
 Obsoletes:	python-gstreamer08x
 Obsoletes:	python-pyflac
 Obsoletes:	sonic-rainbow
