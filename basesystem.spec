@@ -4,7 +4,7 @@ Summary(ru):	Базовый пакет, определяющий систему PLD Linux Distribution
 Summary(uk):	Базовий пакет, який визнача╓ систему PLD Linux Distribution
 Name:		basesystem
 Version:	2.0
-Release:	1
+Release:	2
 Epoch:		2
 License:	GPL
 Group:		Base
@@ -94,6 +94,18 @@ Obsoletes:	python-gstreamer08x
 Obsoletes:	python-pyflac
 Obsoletes:	sonic-rainbow
 Obsoletes:	xwpick
+%ifarch i386
+Obsoletes:	wine
+Obsoletes:	wine-devel
+Obsoletes:	wine-dll-d3d
+Obsoletes:	wine-dll-gl
+Obsoletes:	wine-dll-twain
+Obsoletes:	wine-drv-alsa
+Obsoletes:	wine-drv-arts
+Obsoletes:	wine-drv-jack
+Obsoletes:	wine-drv-nas
+Obsoletes:	wine-programs
+%endif
 # GNOME 1.x stuff dropped in Ac
 Obsoletes:	gda1-ldap
 Obsoletes:	gda1-mysql
