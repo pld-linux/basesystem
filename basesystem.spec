@@ -4,7 +4,7 @@ Summary(ru):	Базовый пакет, определяющий систему PLD Linux Distribution
 Summary(uk):	Базовий пакет, який визнача╓ систему PLD Linux Distribution
 Name:		basesystem
 Version:	2.0
-Release:	2
+Release:	3
 Epoch:		2
 License:	GPL
 Group:		Base
@@ -94,6 +94,8 @@ Obsoletes:	python-gstreamer08x
 Obsoletes:	python-pyflac
 Obsoletes:	sonic-rainbow
 Obsoletes:	xwpick
+# wine was dropped on i386 due to lack of tls/nptl in glibc
+# which makes it completly unusable (99% of programs are crashing)
 %ifarch i386
 Obsoletes:	wine
 Obsoletes:	wine-devel
@@ -108,16 +110,20 @@ Obsoletes:	wine-programs
 Obsoletes:	winetools
 Obsoletes:	xwine
 %endif
+# tyrex was dropped on architectures without java/jre
 %ifarch alpha i386 sparc ppc
 Obsoletes:	tyrex
 %endif
+# opera-i18n dropped on architectures without opera
 %ifarch alpha %{x8664}
 Obsoletes:	opera-i18n
 %endif
+# autopano-sift and muine have broken mono deps on alpha
 %ifarch alpha
 Obsoletes:	autopano-sift
 Obsoletes:	muine
 %endif
+# laptop-mode-tools* was dropped on architectures without apmd
 %ifarch alpha %{x8664} sparc
 Obsoletes:	laptop-mode-tools
 Obsoletes:	laptop-mode-tools-acpi
