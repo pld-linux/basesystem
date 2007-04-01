@@ -108,6 +108,9 @@ Obsoletes:	wine-programs
 Obsoletes:	winetools
 Obsoletes:	xwine
 %endif
+%ifarch alpha i386 sparc ppc
+Obsoletes:	tyrex
+%endif
 # GNOME 1.x stuff dropped in Ac
 Obsoletes:	gda1-ldap
 Obsoletes:	gda1-mysql
