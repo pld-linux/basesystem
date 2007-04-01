@@ -105,6 +105,8 @@ Obsoletes:	wine-drv-arts
 Obsoletes:	wine-drv-jack
 Obsoletes:	wine-drv-nas
 Obsoletes:	wine-programs
+Obsoletes:	winetools
+Obsoletes:	xwine
 %endif
 # GNOME 1.x stuff dropped in Ac
 Obsoletes:	gda1-ldap
