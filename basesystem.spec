@@ -118,6 +118,11 @@ Obsoletes:	opera-i18n
 Obsoletes:	autopano-sift
 Obsoletes:	muine
 %endif
+%ifarch alpha %{x8664} sparc
+Obsoletes:	laptop-mode-tools
+Obsoletes:	laptop-mode-tools-acpi
+Obsoletes:	laptop-mode-tools-apm
+%endif
 # GNOME 1.x stuff dropped in Ac
 Obsoletes:	gda1-ldap
 Obsoletes:	gda1-mysql
