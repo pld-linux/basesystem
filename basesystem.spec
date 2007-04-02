@@ -83,6 +83,8 @@ Obsoletes:	gstreamer08x-vorbis
 Obsoletes:	gstreamer08x-wavpack
 Obsoletes:	gstreamer08x-xvid
 Obsoletes:	gstreamer-player
+Obsoletes:	gstreamer-player-devel
+Obsoletes:	gstreamer-player-nautilus
 Obsoletes:	gstreamer-plugins
 Obsoletes:	goobox
 Obsoletes:	gwp
