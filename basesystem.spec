@@ -4,7 +4,7 @@ Summary(ru.UTF-8):	Базовый пакет, определяющий сист�
 Summary(uk.UTF-8):	Базовий пакет, який визначає систему PLD Linux Distribution
 Name:		basesystem
 Version:	2.99
-Release:	4
+Release:	5
 Epoch:		2
 License:	GPL
 Group:		Base
@@ -36,6 +36,8 @@ Obsoletes:	libglade-gnomedb
 Obsoletes:	libglade-gnomedb-devel
 Obsoletes:	libglade-gnomedb-static
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+
+%define		_enable_debug_packages	0
 
 %description
 While this package does not contain any files, it does perform an
