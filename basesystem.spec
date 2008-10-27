@@ -46,7 +46,7 @@ Distribution, providing packages install in right order.
 
 %description -l pl.UTF-8
 Mimo że ten pakiet nie zawiera żadnych plików, ma on bardzo ważne
-zadanie. Definiuje komponenty podstawowej dystrybucji PLD Linuxa,
+zadanie. Definiuje komponenty podstawowej dystrybucji PLD Linuksa,
 zapewniając tym samym właściwy porządek instalacji pakietów.
 
 %description -l ru.UTF-8
