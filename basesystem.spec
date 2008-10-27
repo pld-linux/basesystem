@@ -41,13 +41,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 While this package does not contain any files, it does perform an
-important function. It defines the components of a basic PLD
-distribution, providing packages install in right order.
+important function. It defines the components of a basic PLD Linux
+Distribution, providing packages install in right order.
 
 %description -l pl.UTF-8
 Mimo że ten pakiet nie zawiera żadnych plików, ma on bardzo ważne
-zadanie. Definiuje komponenty podstawowej dystrybucji PLD, zapewniając
-tym samym właściwy porządek instalacji pakietów.
+zadanie. Definiuje komponenty podstawowej dystrybucji PLD Linuxa,
+zapewniając tym samym właściwy porządek instalacji pakietów.
 
 %description -l ru.UTF-8
 Хотя этот пакет и не содержит никаких файлов, он выполняет важную
