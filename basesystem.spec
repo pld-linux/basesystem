@@ -4,7 +4,7 @@ Summary(ru.UTF-8):	Базовый пакет, определяющий сист�
 Summary(uk.UTF-8):	Базовий пакет, який визначає систему PLD Linux Distribution
 Name:		basesystem
 Version:	2.99
-Release:	6
+Release:	7
 Epoch:		2
 License:	GPL
 Group:		Base
@@ -14,6 +14,8 @@ Requires:	setup
 Obsoletes:	vserver-basesystem
 # obsoletes for removed packages
 Obsoletes:	bdflush
+Obsoletes:	gir-repository
+Obsoletes:	gir-repository-devel
 Obsoletes:	gmc
 Obsoletes:	gwp
 Obsoletes:	libtelepathy
