@@ -16,8 +16,12 @@ Obsoletes:	vserver-basesystem
 Obsoletes:	bdflush
 Obsoletes:	gir-repository
 Obsoletes:	gir-repository-devel
-Obsoletes:	gnome-netstatus
 Obsoletes:	gmc
+Obsoletes:	gnome
+Obsoletes:	gnome-admin
+Obsoletes:	gnome-netstatus
+Obsoletes:	gnome-utils
+Obsoletes:	gnome-utils-floppy
 Obsoletes:	gwp
 Obsoletes:	libgail-gnome
 Obsoletes:	libgail-gnome-devel
