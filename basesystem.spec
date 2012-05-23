@@ -15,7 +15,13 @@ Obsoletes:	vserver-basesystem
 # obsoletes for removed packages
 Obsoletes:	bdflush
 Obsoletes:	gmc
+Obsoletes:	goobox
 Obsoletes:	gst-editor
+Obsoletes:	gstreamer-libdvdread
+Obsoletes:	gstreamer-player
+Obsoletes:	gstreamer-player-devel
+Obsoletes:	gstreamer-player-nautilus
+Obsoletes:	gstreamer-plugins
 Obsoletes:	gstreamer08x
 Obsoletes:	gstreamer08x-GConf
 Obsoletes:	gstreamer08x-GConf-devel
@@ -82,12 +88,6 @@ Obsoletes:	gstreamer08x-visualisation
 Obsoletes:	gstreamer08x-vorbis
 Obsoletes:	gstreamer08x-wavpack
 Obsoletes:	gstreamer08x-xvid
-Obsoletes:	gstreamer-libdvdread
-Obsoletes:	gstreamer-player
-Obsoletes:	gstreamer-player-devel
-Obsoletes:	gstreamer-player-nautilus
-Obsoletes:	gstreamer-plugins
-Obsoletes:	goobox
 Obsoletes:	gwp
 Obsoletes:	jamboree
 Obsoletes:	lindele
