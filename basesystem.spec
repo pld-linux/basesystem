@@ -4,13 +4,14 @@ Summary(ru.UTF-8):	Базовый пакет, определяющий сист�
 Summary(uk.UTF-8):	Базовий пакет, який визначає систему PLD Linux Distribution
 Name:		basesystem
 Version:	2.0
-Release:	4.1
+Release:	5
 Epoch:		2
 License:	GPL
 Group:		Base
 Requires:	FHS
 Requires:	dev
 Requires:	setup
+Provides:	systemd-units = 38
 Obsoletes:	vserver-basesystem
 # obsoletes for removed packages
 Obsoletes:	bdflush
