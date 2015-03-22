@@ -4,7 +4,7 @@ Summary(ru.UTF-8):	Базовый пакет, определяющий сист�
 Summary(uk.UTF-8):	Базовий пакет, який визначає систему PLD Linux Distribution
 Name:		basesystem
 Version:	2.99
-Release:	8
+Release:	9
 Epoch:		2
 License:	GPL
 Group:		Base
